@@ -56,12 +56,12 @@ Follow recording here -
 For Linux 
 
 ```bash
-docker run --name swampup202-runner --rm --env  ARTIFACTORY_HOSTNAME="${ARTIFACTORY_HOSTNAME}" --env ARTIFACTORY_LOGIN="${ARTIFACTORY_LOGIN}" --env ARTIFACTORY_API_KEY="${ARTIFACTORY_API_KEY}" -it -v "/var/run/docker.sock:/var/run/docker.sock" swampup202.jfrog.io/swampup/swampup202-runner
+docker run --name swampup304-runner --rm --env  ARTIFACTORY_HOSTNAME="${ARTIFACTORY_HOSTNAME}" --env ARTIFACTORY_LOGIN="${ARTIFACTORY_LOGIN}" --env ARTIFACTORY_API_KEY="${ARTIFACTORY_API_KEY}" -it -v "/var/run/docker.sock:/var/run/docker.sock" swampup304.jfrog.io/swampup/swampup304-runner
 ```
 For Windows 
 
 ```bash
-docker run --name swampup202-runner --rm --env ARTIFACTORY_HOSTNAME="%ARTIFACTORY_HOSTNAME%" --env ARTIFACTORY_LOGIN="%ARTIFACTORY_LOGIN%" --env ARTIFACTORY_API_KEY="%ARTIFACTORY_API_KEY%" -it -v "/var/run/docker.sock:/var/run/docker.sock" swampup202.jfrog.io/swampup/swampup202-runner
+docker run --name swampup304-runner --rm --env ARTIFACTORY_HOSTNAME="%ARTIFACTORY_HOSTNAME%" --env ARTIFACTORY_LOGIN="%ARTIFACTORY_LOGIN%" --env ARTIFACTORY_API_KEY="%ARTIFACTORY_API_KEY%" -it -v "/var/run/docker.sock:/var/run/docker.sock" swampup304.jfrog.io/swampup/swampup304-runner
 ```
 
 From this point onward, every command will be run from within the container.
