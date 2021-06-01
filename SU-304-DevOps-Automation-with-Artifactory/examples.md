@@ -1,4 +1,4 @@
-##REST API AUTOMATION
+#REST API AUTOMATION
 
 ```bash
 #!/bin/sh
@@ -21,7 +21,7 @@ done < $FILE
 ```
 
 
-REST API LOOP:
+##REST API LOOP:
 ```bash
 #!/bin/bash
 for i in {1..10000}
